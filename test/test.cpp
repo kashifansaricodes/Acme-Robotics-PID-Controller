@@ -1,15 +1,28 @@
 #include <gtest/gtest.h>
-#include "lib1.hpp"
-#include "lib2.hpp"
+#include "../include/PID_Control.hpp"  // Include the header instead of the cpp
 
-TEST(dummy_test, this_should_pass) {
-  EXPECT_EQ(1, 1);
+class PIDControllerTest : public ::testing::Test {
+protected:
+    PID_Control* pid;
+
+    void SetUp() override {
+        // This is called before each test
+        pid = new PID_Control(0.8, 0.6, 0.3, 20.0, 30.0, 0.1);
+    }
+
+    void TearDown() override {
+        // This is called after each test
+        delete pid;
+    }
+};
+
+// Test Calculate Output (this will fail as it depends on unimplemented methods)
+TEST_F(PIDControllerTest, Output_Value) {
+    // Adjust the expected value based on your PID controller's logic
+    EXPECT_DOUBLE_EQ(pid->output_value(20.0, 30.0), 0.0);
 }
 
-TEST(dummy_test, this_should_pass_too) {
-  EXPECT_EQ(my_function1(3), 3);
-}
-
-TEST(dummy_test, this_will_fail) {
-  EXPECT_EQ(my_function2(3.2), 3.2);
+int main(int argc, char **argv) {
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

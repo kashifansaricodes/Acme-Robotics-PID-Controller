@@ -91,7 +91,7 @@ endif()
 # ref: https://iamsorush.com/posts/cpp-cmake-essential/
 # ref: https://cmake.org/cmake/help/latest/guide/tutorial/index.html
 #
-add_subdirectory(libs)
+add_subdirectory(tdd_assg)
 add_subdirectory(app)
 add_subdirectory(test)
 
@@ -99,7 +99,7 @@ add_subdirectory(test)
 doxygen_add_docs(docs           # target name
   # List of files or directories
   ${PROJECT_SOURCE_DIR}/app
-  ${PROJECT_SOURCE_DIR}/libs
+  ${PROJECT_SOURCE_DIR}/tdd_assg
   ${PROJECT_SOURCE_DIR}/include
   )
 
@@ -108,11 +108,11 @@ if(WANT_COVERAGE)
   # unit test coverage:
   setup_target_for_coverage_lcov ( # use lcov to generate coverage report
     NAME test_coverage          # target name
-    # EXECUTABLE ctest || true    # what to run insdie the build directory?
+    EXECUTABLE ctest || true    # what to run insdie the build directory?
     #                             #   '|| true' --> continue coverage even if ctest failed
     EXECUTABLE ctest     # what to run insdie the build directory?
     EXCLUDE
-      "app/main.cpp"     # Unit test does not run app, so don't analyze it
+      # "app/main.cpp"     # Unit test does not run app, so don't analyze it
       "*gtest*"          # Don't analyze googleTest code
       "/usr/include/*"   # Don't analyze system headers
     )
@@ -123,8 +123,8 @@ if(WANT_COVERAGE)
     NAME app_coverage          # target name
     EXECUTABLE shell-app       # what to run insdie the build directory?
     EXCLUDE
-    "test/test.cpp"    # App does not run unit test, so don't analyze it
-    "test/main.cpp"    # App does not run unit test, so don't analyze it
+    # "test/test.cpp"    # App does not run unit test, so don't analyze it
+    # "test/main.cpp"    # App does not run unit test, so don't analyze it
     )
 
 endif()

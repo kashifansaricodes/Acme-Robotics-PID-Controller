@@ -1,40 +1,19 @@
-# Add the shell-app executable with its source files.
+# Define the executable (shell-app)
 add_executable(shell-app
-  main.cpp
+  main.cpp  # The main source file for the executable
 )
 
-# Add CourseGrading executable with its source file.
-add_library(tdd_assg
-tdd_assg.cpp
-)
-
-# Include directories needed for CourseGrading.
-target_include_directories(tdd_assg PUBLIC
-  ${CMAKE_SOURCE_DIR}/include
-)
-
-# Specify link directories and libraries for CourseGrading.
-target_link_directories(tdd_assg PUBLIC ${COMMON_INCLUDE_DIRS})
-target_link_libraries(tdd_assg PUBLIC ${COMMON_LIBS})
-target_link_options(tdd_assg PUBLIC --static)
-
-# Add STL_average executable with its source file.
-add_executable(tdd_assg
-  tdd_assg.cpp
-)
-
-# Include directories needed for shell-app.
+# Include directories for this target
 target_include_directories(shell-app PUBLIC
-  ${CMAKE_SOURCE_DIR}/include
+  ${CMAKE_SOURCE_DIR}/include  # Include directory for header files
 )
 
-# Link libraries for shell-app.
+# Link the shell-app target with dependent libraries
 target_link_libraries(shell-app PUBLIC
-  myLib1
-  myLib2
+  PID_Control  # Link with the PID_Control library
 )
 
-# Link options for shell-app.
+# Specify any additional link options if needed
 target_link_options(shell-app PUBLIC
-  --static
+  --static  # Linking statically
 )

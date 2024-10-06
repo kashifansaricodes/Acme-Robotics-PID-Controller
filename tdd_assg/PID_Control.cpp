@@ -2,7 +2,7 @@
 #define _PID_SOURCE_
 
 #include <iostream>
-#include "../include/tdd_assg.hpp"
+#include "../include/PID_Control.hpp"
 
 using namespace std;
 
@@ -50,7 +50,7 @@ PIDImpl::PIDImpl(double dt, double max, double min, double Kp, double Kd, double
 
 // Stub for the calculate method, returns a fixed value
 double PIDImpl::calculate(double setpoint, double pv) {
-    return 0.5;  // Always return a fixed increment (e.g., 0.5)
+    return setpoint - pv ; // Always return a fixed increment (e.g., 0.5)
 }
 
 // Destructor for PIDImpl (stub)

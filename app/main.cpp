@@ -1,16 +1,4 @@
-// #include "lib.hpp"
-// #include "lib1.hpp"
-// #include "lib2.hpp"
-
-// int main() {
-//   dummy();
-//   my_function1(30);
-//   my_function2(30.3);
-//   return 0;
-// }
-
-
-#include "../include/tdd_assg.hpp"
+#include "../tdd_assg/PID_Control.cpp"
 #include <stdio.h>
 
 int main() {
