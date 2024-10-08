@@ -2,7 +2,6 @@
 add_executable(cpp-test
   # list of source cpp files:
   test.cpp
-  test2.cpp
   )
 
 # Any include directories needed to build this target.

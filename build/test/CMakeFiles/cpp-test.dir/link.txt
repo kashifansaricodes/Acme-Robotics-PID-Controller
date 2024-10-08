@@ -1,0 +1,1 @@
+/usr/bin/c++ --static CMakeFiles/cpp-test.dir/test.cpp.o -o cpp-test  ../lib/libgtest.a ../tdd_assg/libPID_Control.a 
