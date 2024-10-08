@@ -1,3 +1,11 @@
+/**
+ * @file PID_Control.cpp
+ * @brief Implementation file for the PID control class.
+ * 
+ * Driver: Kashif Ansari
+ * Navigator: Piyush Goenka
+ */
+
 #ifndef _PID_SOURCE_
 #define _PID_SOURCE_
 

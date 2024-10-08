@@ -1,5 +1,5 @@
 PIDImplTest.ComputeTotal 0 0
-PIDImplTest.Calculate 1 0.00131202
-PIDControlTest.OutputValue 1 0.00114414
+PIDImplTest.Calculate 1 0.00249869
+PIDControlTest.OutputValue 1 0.0021532
 ---
 PIDImplTest.ComputeTotal

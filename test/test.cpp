@@ -1,3 +1,11 @@
+/**
+ * @file test.cpp
+ * @brief Unit tests for the PID controller using Google Test framework.
+ * 
+ * Driver: Kashif Ansari
+ * Navigator: Piyush Goenka
+ */
+
 #include <gtest/gtest.h>
 #include "../include/PID_Control.hpp"  // Include the header with the full definition of PIDImpl
 
@@ -16,7 +24,7 @@ protected:
     }
 };
 
-// Test computeTotal method--------
+// Test computeTotal method--------(FAILING ! ! ! ! ! ! ! ! ! !)
 TEST_F(PIDImplTest, ComputeTotal) {
     double Pout = 1.0;
     double Iout = 0.5;
