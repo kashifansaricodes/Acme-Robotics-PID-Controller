@@ -8,9 +8,8 @@ public:
     PID_Control(double Kp, double Kd, double Ki, double dt, double integral, double pre_error);
     ~PID_Control();
     double output_value(double setpoint, double actual_value);
-
-private:
     PIDImpl* pimpl;  // Use PIDImpl* for your implementation
+    
 };
 
 #endif
