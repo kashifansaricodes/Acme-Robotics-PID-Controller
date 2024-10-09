@@ -1,4 +1,4 @@
-# Install script for directory: /home/kashif/SDR/week5/test
+# Install script for directory: /home/kshitij/Acme-Robotics-PID-Controller/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

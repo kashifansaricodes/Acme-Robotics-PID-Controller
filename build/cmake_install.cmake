@@ -1,4 +1,4 @@
-# Install script for directory: /home/kashif/SDR/week5
+# Install script for directory: /home/kshitij/Acme-Robotics-PID-Controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kashif/SDR/week5/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kashif/SDR/week5/build/tdd_assg/cmake_install.cmake")
+  include("/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kashif/SDR/week5/build/app/cmake_install.cmake")
+  include("/home/kshitij/Acme-Robotics-PID-Controller/build/app/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kashif/SDR/week5/build/test/cmake_install.cmake")
+  include("/home/kshitij/Acme-Robotics-PID-Controller/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kashif/SDR/week5/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kshitij/Acme-Robotics-PID-Controller/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

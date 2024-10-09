@@ -1,4 +1,4 @@
-# Install script for directory: /home/kashif/SDR/week5/build/_deps/googletest-src
+# Install script for directory: /home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kashif/SDR/week5/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 
