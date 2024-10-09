@@ -185,6 +185,30 @@ shell-app/fast:
 	cd /home/kshitij/Acme-Robotics-PID-Controller/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/build
 .PHONY : shell-app/fast
 
+PID_Control.o: PID_Control.cpp.o
+.PHONY : PID_Control.o
+
+# target to build an object file
+PID_Control.cpp.o:
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/PID_Control.cpp.o
+.PHONY : PID_Control.cpp.o
+
+PID_Control.i: PID_Control.cpp.i
+.PHONY : PID_Control.i
+
+# target to preprocess a source file
+PID_Control.cpp.i:
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/PID_Control.cpp.i
+.PHONY : PID_Control.cpp.i
+
+PID_Control.s: PID_Control.cpp.s
+.PHONY : PID_Control.s
+
+# target to generate assembly for a file
+PID_Control.cpp.s:
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/shell-app.dir/build.make app/CMakeFiles/shell-app.dir/PID_Control.cpp.s
+.PHONY : PID_Control.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -223,6 +247,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... shell-app"
+	@echo "... PID_Control.o"
+	@echo "... PID_Control.i"
+	@echo "... PID_Control.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -91,7 +91,7 @@ endif()
 # ref: https://iamsorush.com/posts/cpp-cmake-essential/
 # ref: https://cmake.org/cmake/help/latest/guide/tutorial/index.html
 #
-add_subdirectory(tdd_assg)
+# add_subdirectory(tdd_assg)
 add_subdirectory(app)
 add_subdirectory(test)
 
@@ -99,7 +99,7 @@ add_subdirectory(test)
 doxygen_add_docs(docs           # target name
   # List of files or directories
   ${PROJECT_SOURCE_DIR}/app
-  ${PROJECT_SOURCE_DIR}/tdd_assg
+  # ${PROJECT_SOURCE_DIR}/tdd_assg
   ${PROJECT_SOURCE_DIR}/include
   )
 
@@ -124,7 +124,7 @@ if(WANT_COVERAGE)
     EXECUTABLE shell-app       # what to run insdie the build directory?
     EXCLUDE
     # "test/test.cpp"    # App does not run unit test, so don't analyze it
-    # "test/main.cpp"    # App does not run unit test, so don't analyze it
+    
     )
 
 endif()

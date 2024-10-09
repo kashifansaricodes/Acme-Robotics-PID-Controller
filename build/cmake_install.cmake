@@ -49,11 +49,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/kshitij/Acme-Robotics-PID-Controller/build/app/cmake_install.cmake")
 endif()
 

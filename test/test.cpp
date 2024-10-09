@@ -25,7 +25,7 @@ class PIDImplTest : public ::testing::Test {
   }
 };
 
-// Test computeTotal method--------(FAILING ! ! ! ! ! ! ! ! ! !)
+// Test computeTotal method
 TEST_F(PIDImplTest, ComputeTotal) {
   double Pout = 1.0;
   double Iout = 0.5;
@@ -43,8 +43,7 @@ TEST_F(PIDImplTest, Calculate) {
 
   // Since we use hardcoded logic in the stubs, the output should match that
   // value
-  EXPECT_DOUBLE_EQ(pid->pimpl->calculate(setpoint, pv),
-                   0.0);  // Replace with actual expected value when implemented
+  EXPECT_DOUBLE_EQ(pid->pimpl->calculate(setpoint, pv), 13.66);
 }
 
 // Test PID_Control class
@@ -65,12 +64,12 @@ class PIDControlTest : public ::testing::Test {
 
 // Test output_value method in PID_Control
 TEST_F(PIDControlTest, OutputValue) {
-  double setpoint = 10.0;
-  double actual_value = 8.0;
+  double setpoint = 11.0;
+  double actual_value = 7.0;
 
   // Test for hardcoded output
   EXPECT_DOUBLE_EQ(pid->output_value(setpoint, actual_value),
-                   0.0);  // Adjust as needed when real logic is added
+                   8.004);  // Adjust as needed when real logic is added
 }
 
 int main(int argc, char** argv) {

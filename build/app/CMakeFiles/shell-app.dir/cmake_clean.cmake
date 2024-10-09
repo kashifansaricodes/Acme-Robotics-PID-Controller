@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/shell-app.dir/PID_Control.cpp.o"
+  "CMakeFiles/shell-app.dir/PID_Control.cpp.o.d"
   "CMakeFiles/shell-app.dir/main.cpp.o"
   "CMakeFiles/shell-app.dir/main.cpp.o.d"
   "shell-app"
