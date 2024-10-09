@@ -1,4 +1,4 @@
-# Install script for directory: /home/kashif/SDR/week5/tdd_assg
+# Install script for directory: /home/kshitij/Acme-Robotics-PID-Controller/tdd_assg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

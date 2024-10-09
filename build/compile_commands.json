@@ -1,17 +1,17 @@
 [
 {
-  "directory": "/home/kashif/SDR/week5/build/tdd_assg",
-  "command": "/usr/bin/c++  -I/home/kashif/SDR/week5/include -std=gnu++14 -o CMakeFiles/PID_Control.dir/PID_Control.cpp.o -c /home/kashif/SDR/week5/tdd_assg/PID_Control.cpp",
-  "file": "/home/kashif/SDR/week5/tdd_assg/PID_Control.cpp"
+  "directory": "/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg",
+  "command": "/usr/bin/c++  -I/home/kshitij/Acme-Robotics-PID-Controller/include -std=gnu++14 -o CMakeFiles/PID_Control.dir/PID_Control.cpp.o -c /home/kshitij/Acme-Robotics-PID-Controller/tdd_assg/PID_Control.cpp",
+  "file": "/home/kshitij/Acme-Robotics-PID-Controller/tdd_assg/PID_Control.cpp"
 },
 {
-  "directory": "/home/kashif/SDR/week5/build/app",
-  "command": "/usr/bin/c++  -I/home/kashif/SDR/week5/include -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/kashif/SDR/week5/app/main.cpp",
-  "file": "/home/kashif/SDR/week5/app/main.cpp"
+  "directory": "/home/kshitij/Acme-Robotics-PID-Controller/build/app",
+  "command": "/usr/bin/c++  -I/home/kshitij/Acme-Robotics-PID-Controller/include -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/kshitij/Acme-Robotics-PID-Controller/app/main.cpp",
+  "file": "/home/kshitij/Acme-Robotics-PID-Controller/app/main.cpp"
 },
 {
-  "directory": "/home/kashif/SDR/week5/build/test",
-  "command": "/usr/bin/c++  -I/home/kashif/SDR/week5/include -isystem /home/kashif/SDR/week5/build/_deps/googletest-src/googletest/include -isystem /home/kashif/SDR/week5/build/_deps/googletest-src/googletest -std=gnu++14 -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/kashif/SDR/week5/test/test.cpp",
-  "file": "/home/kashif/SDR/week5/test/test.cpp"
+  "directory": "/home/kshitij/Acme-Robotics-PID-Controller/build/test",
+  "command": "/usr/bin/c++  -I/home/kshitij/Acme-Robotics-PID-Controller/include -isystem /home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-src/googletest/include -isystem /home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-src/googletest -std=gnu++14 -o CMakeFiles/cpp-test.dir/test.cpp.o -c /home/kshitij/Acme-Robotics-PID-Controller/test/test.cpp",
+  "file": "/home/kshitij/Acme-Robotics-PID-Controller/test/test.cpp"
 }
 ]

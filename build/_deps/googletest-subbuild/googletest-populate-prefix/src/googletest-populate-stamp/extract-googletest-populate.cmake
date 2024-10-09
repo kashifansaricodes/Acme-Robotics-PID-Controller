@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/kashif/SDR/week5/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.14.0.zip" ABSOLUTE)
-get_filename_component(directory "/home/kashif/SDR/week5/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.14.0.zip" ABSOLUTE)
+get_filename_component(directory "/home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

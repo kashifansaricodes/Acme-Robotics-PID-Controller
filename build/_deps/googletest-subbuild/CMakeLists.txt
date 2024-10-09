@@ -14,8 +14,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip"
-                    SOURCE_DIR          "/home/kashif/SDR/week5/build/_deps/googletest-src"
-                    BINARY_DIR          "/home/kashif/SDR/week5/build/_deps/googletest-build"
+                    SOURCE_DIR          "/home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-src"
+                    BINARY_DIR          "/home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

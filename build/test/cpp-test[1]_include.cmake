@@ -1,5 +1,5 @@
-if(EXISTS "/home/kashif/SDR/week5/build/test/cpp-test[1]_tests.cmake")
-  include("/home/kashif/SDR/week5/build/test/cpp-test[1]_tests.cmake")
+if(EXISTS "/home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test[1]_tests.cmake")
+  include("/home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test[1]_tests.cmake")
 else()
   add_test(cpp-test_NOT_BUILT cpp-test_NOT_BUILT)
 endif()

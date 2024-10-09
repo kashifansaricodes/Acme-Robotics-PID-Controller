@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kashif/SDR/week5/include
+CXX_INCLUDES = -I/home/kshitij/Acme-Robotics-PID-Controller/include
 
 CXX_FLAGS = -std=gnu++14
 

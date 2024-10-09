@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kashif/SDR/week5
+CMAKE_SOURCE_DIR = /home/kshitij/Acme-Robotics-PID-Controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kashif/SDR/week5/build
+CMAKE_BINARY_DIR = /home/kshitij/Acme-Robotics-PID-Controller/build
 
 # Utility rule file for docs.
 
@@ -67,9 +67,9 @@ include CMakeFiles/docs.dir/compiler_depend.make
 include CMakeFiles/docs.dir/progress.make
 
 CMakeFiles/docs: Doxyfile.docs
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kashif/SDR/week5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for docs"
-	cd /home/kashif/SDR/week5 && /usr/bin/cmake -E make_directory /home/kashif/SDR/week5/docs
-	cd /home/kashif/SDR/week5 && /usr/bin/doxygen /home/kashif/SDR/week5/build/Doxyfile.docs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kshitij/Acme-Robotics-PID-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for docs"
+	cd /home/kshitij/Acme-Robotics-PID-Controller && /usr/bin/cmake -E make_directory /home/kshitij/Acme-Robotics-PID-Controller/docs
+	cd /home/kshitij/Acme-Robotics-PID-Controller && /usr/bin/doxygen /home/kshitij/Acme-Robotics-PID-Controller/build/Doxyfile.docs
 
 docs: CMakeFiles/docs
 docs: CMakeFiles/docs.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/docs.dir/clean:
 .PHONY : CMakeFiles/docs.dir/clean
 
 CMakeFiles/docs.dir/depend:
-	cd /home/kashif/SDR/week5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kashif/SDR/week5 /home/kashif/SDR/week5 /home/kashif/SDR/week5/build /home/kashif/SDR/week5/build /home/kashif/SDR/week5/build/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kshitij/Acme-Robotics-PID-Controller /home/kshitij/Acme-Robotics-PID-Controller /home/kshitij/Acme-Robotics-PID-Controller/build /home/kshitij/Acme-Robotics-PID-Controller/build /home/kshitij/Acme-Robotics-PID-Controller/build/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/docs.dir/depend
 
