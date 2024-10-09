@@ -1,9 +1,14 @@
 /**
  * @file PID_Control.cpp
  * @brief Implementation file for the PID control class.
- * 
+ *
+ * Part 1:
  * Driver: Kashif Ansari
  * Navigator: Piyush Goenka
+ *
+ * Part 2:
+ * Driver: Kshitij Aggarwal
+ * Navigator: Bhavana Rao
  */
 
 #ifndef _PID_SOURCE_
