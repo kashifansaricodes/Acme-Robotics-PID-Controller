@@ -1,7 +1,0 @@
-add_test( PIDImplTest.ComputeTotal /home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test [==[--gtest_filter=PIDImplTest.ComputeTotal]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDImplTest.ComputeTotal PROPERTIES WORKING_DIRECTORY /home/kshitij/Acme-Robotics-PID-Controller/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( PIDImplTest.Calculate /home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test [==[--gtest_filter=PIDImplTest.Calculate]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDImplTest.Calculate PROPERTIES WORKING_DIRECTORY /home/kshitij/Acme-Robotics-PID-Controller/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( PIDControlTest.OutputValue /home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test [==[--gtest_filter=PIDControlTest.OutputValue]==] --gtest_also_run_disabled_tests)
-set_tests_properties( PIDControlTest.OutputValue PROPERTIES WORKING_DIRECTORY /home/kshitij/Acme-Robotics-PID-Controller/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( cpp-test_TESTS PIDImplTest.ComputeTotal PIDImplTest.Calculate PIDControlTest.OutputValue)

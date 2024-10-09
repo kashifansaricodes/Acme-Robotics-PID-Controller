@@ -1,1 +1,0 @@
-/usr/bin/c++ --static CMakeFiles/shell-app.dir/main.cpp.o CMakeFiles/shell-app.dir/PID_Control.cpp.o -o shell-app 
