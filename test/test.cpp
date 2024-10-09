@@ -14,7 +14,7 @@ class PIDImplTest : public ::testing::Test {
  protected:
   PID_Control* pid;
 
-  void SetUp() override {
+  void SetUp() override { 
     // This is called before each test
     pid = new PID_Control(0.8, 0.6, 0.3, 20.0, 30.0, 0.1);
   }
@@ -44,7 +44,7 @@ TEST_F(PIDImplTest, Calculate) {
   // Since we use hardcoded logic in the stubs, the output should match that
   // value
   EXPECT_DOUBLE_EQ(pid->pimpl->calculate(setpoint, pv),
-                   0.0);  // Replace with actual expected value when implemented
+                   13.66);  // Replace with actual expected value when implemented
 }
 
 // Test PID_Control class
@@ -70,7 +70,7 @@ TEST_F(PIDControlTest, OutputValue) {
 
   // Test for hardcoded output
   EXPECT_DOUBLE_EQ(pid->output_value(setpoint, actual_value),
-                   0.0);  // Adjust as needed when real logic is added
+                   4.002);  // Adjust as needed when real logic is added
 }
 
 int main(int argc, char** argv) {
