@@ -31,14 +31,6 @@
 /home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-build/googletest/CMakeFiles/install.dir
 /home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-build/googletest/CMakeFiles/install/local.dir
 /home/kshitij/Acme-Robotics-PID-Controller/build/_deps/googletest-build/googletest/CMakeFiles/install/strip.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/PID_Control.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/test.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/edit_cache.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/rebuild_cache.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/list_install_components.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/install.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/install/local.dir
-/home/kshitij/Acme-Robotics-PID-Controller/build/tdd_assg/CMakeFiles/install/strip.dir
 /home/kshitij/Acme-Robotics-PID-Controller/build/app/CMakeFiles/shell-app.dir
 /home/kshitij/Acme-Robotics-PID-Controller/build/app/CMakeFiles/test.dir
 /home/kshitij/Acme-Robotics-PID-Controller/build/app/CMakeFiles/edit_cache.dir

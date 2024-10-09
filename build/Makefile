@@ -237,19 +237,6 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named PID_Control
-
-# Build rule for target.
-PID_Control: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PID_Control
-.PHONY : PID_Control
-
-# fast build rule for target.
-PID_Control/fast:
-	$(MAKE) $(MAKESILENT) -f tdd_assg/CMakeFiles/PID_Control.dir/build.make tdd_assg/CMakeFiles/PID_Control.dir/build
-.PHONY : PID_Control/fast
-
-#=============================================================================
 # Target rules for targets named shell-app
 
 # Build rule for target.
@@ -289,7 +276,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... docs"
-	@echo "... PID_Control"
 	@echo "... cpp-test"
 	@echo "... gmock"
 	@echo "... gmock_main"

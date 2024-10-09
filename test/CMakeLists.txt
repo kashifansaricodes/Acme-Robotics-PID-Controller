@@ -2,6 +2,7 @@
 add_executable(cpp-test
   # list of source cpp files:
   test.cpp
+  ../app/PID_Control.cpp
   )
 
 # Any include directories needed to build this target.
@@ -16,7 +17,7 @@ target_include_directories(cpp-test PUBLIC
 target_link_libraries(cpp-test PUBLIC
   # list of libraries:
   gtest
-  PID_Control
+
   )
 
 # Enable CMake’s test runner to discover the tests included in the

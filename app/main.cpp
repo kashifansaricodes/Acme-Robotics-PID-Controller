@@ -8,7 +8,9 @@
 
 #include <stdio.h>
 
-#include "../tdd_assg/PID_Control.cpp"
+#include "PID_Control.hpp"
+
+// #include "../tdd_assg/PID_Control.cpp"
 
 int main() {
   // Instantiate the PID controller with dummy values

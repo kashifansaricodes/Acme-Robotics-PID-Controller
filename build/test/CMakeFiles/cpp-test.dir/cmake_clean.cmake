@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o"
+  "CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o.d"
   "CMakeFiles/cpp-test.dir/test.cpp.o"
   "CMakeFiles/cpp-test.dir/test.cpp.o.d"
   "cpp-test"

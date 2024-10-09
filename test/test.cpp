@@ -43,8 +43,7 @@ TEST_F(PIDImplTest, Calculate) {
 
   // Since we use hardcoded logic in the stubs, the output should match that
   // value
-  EXPECT_DOUBLE_EQ(pid->pimpl->calculate(setpoint, pv),
-                   13.66);  // Replace with actual expected value when implemented
+  EXPECT_DOUBLE_EQ(pid->pimpl->calculate(setpoint, pv), 13.66);
 }
 
 // Test PID_Control class

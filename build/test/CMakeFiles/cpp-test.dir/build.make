@@ -83,19 +83,34 @@ test/CMakeFiles/cpp-test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-test.dir/test.cpp.s"
 	cd /home/kshitij/Acme-Robotics-PID-Controller/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kshitij/Acme-Robotics-PID-Controller/test/test.cpp -o CMakeFiles/cpp-test.dir/test.cpp.s
 
+test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o: test/CMakeFiles/cpp-test.dir/flags.make
+test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o: ../app/PID_Control.cpp
+test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o: test/CMakeFiles/cpp-test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kshitij/Acme-Robotics-PID-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o"
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o -MF CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o.d -o CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o -c /home/kshitij/Acme-Robotics-PID-Controller/app/PID_Control.cpp
+
+test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.i"
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kshitij/Acme-Robotics-PID-Controller/app/PID_Control.cpp > CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.i
+
+test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.s"
+	cd /home/kshitij/Acme-Robotics-PID-Controller/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kshitij/Acme-Robotics-PID-Controller/app/PID_Control.cpp -o CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.s
+
 # Object files for target cpp-test
 cpp__test_OBJECTS = \
-"CMakeFiles/cpp-test.dir/test.cpp.o"
+"CMakeFiles/cpp-test.dir/test.cpp.o" \
+"CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o"
 
 # External object files for target cpp-test
 cpp__test_EXTERNAL_OBJECTS =
 
 test/cpp-test: test/CMakeFiles/cpp-test.dir/test.cpp.o
+test/cpp-test: test/CMakeFiles/cpp-test.dir/__/app/PID_Control.cpp.o
 test/cpp-test: test/CMakeFiles/cpp-test.dir/build.make
 test/cpp-test: lib/libgtest.a
-test/cpp-test: tdd_assg/libPID_Control.a
 test/cpp-test: test/CMakeFiles/cpp-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kshitij/Acme-Robotics-PID-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kshitij/Acme-Robotics-PID-Controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp-test"
 	cd /home/kshitij/Acme-Robotics-PID-Controller/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-test.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/kshitij/Acme-Robotics-PID-Controller/build/test && /usr/bin/cmake -D TEST_TARGET=cpp-test -D TEST_EXECUTABLE=/home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/kshitij/Acme-Robotics-PID-Controller/build/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=cpp-test_TESTS -D CTEST_FILE=/home/kshitij/Acme-Robotics-PID-Controller/build/test/cpp-test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.22/Modules/GoogleTestAddTests.cmake
 
