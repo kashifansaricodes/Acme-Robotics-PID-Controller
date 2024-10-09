@@ -14,7 +14,7 @@ class PIDImplTest : public ::testing::Test {
  protected:
   PID_Control* pid;
 
-  void SetUp() override { 
+  void SetUp() override {
     // This is called before each test
     pid = new PID_Control(0.8, 0.6, 0.3, 20.0, 30.0, 0.1);
   }
@@ -25,7 +25,7 @@ class PIDImplTest : public ::testing::Test {
   }
 };
 
-// Test computeTotal method--------(FAILING ! ! ! ! ! ! ! ! ! !)
+// Test computeTotal method
 TEST_F(PIDImplTest, ComputeTotal) {
   double Pout = 1.0;
   double Iout = 0.5;
@@ -65,12 +65,12 @@ class PIDControlTest : public ::testing::Test {
 
 // Test output_value method in PID_Control
 TEST_F(PIDControlTest, OutputValue) {
-  double setpoint = 10.0;
-  double actual_value = 8.0;
+  double setpoint = 11.0;
+  double actual_value = 7.0;
 
   // Test for hardcoded output
   EXPECT_DOUBLE_EQ(pid->output_value(setpoint, actual_value),
-                   4.002);  // Adjust as needed when real logic is added
+                   8.004);  // Adjust as needed when real logic is added
 }
 
 int main(int argc, char** argv) {
