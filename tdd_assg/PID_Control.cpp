@@ -55,8 +55,23 @@ double PIDImpl::computeTotal(double Pout, double Iout, double Dout, double error
 }
 
 double PIDImpl::calculate(double setpoint, double pv) {
-    // Return a hardcoded output value, ignoring setpoint and pv
-    return 0.0;  // Stub implementation
+
+    // Calculate the error value
+    double error = setpoint - pv;
+
+    // Proportional gain
+    double Pout = _Kp * error;
+
+    // Integral gain
+    _integral += error * _dt;
+    double Iout = _Ki * _integral;
+
+    // Derivative gain
+    double derivative = (error - _pre_error) / _dt;
+    double Dout = _Kd * derivative;
+
+    // Calculate and return total output and handle restrictions
+    return computeTotal(Pout, Iout, Dout, error);
 }
 
 // Destructor for PIDImpl (stub)
