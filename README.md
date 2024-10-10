@@ -51,25 +51,7 @@ Simple starter C++ project with:
 ```
 
 
-## How to use GitHub CI to upload coverage report to Codecov
+## Results
 
-### First, sign up Codecov with you GitHub account.
-
-  https://about.codecov.io/sign-up/
-
-### Enable the repository you want to upload from
-
-After you sign in, you should see a list of your repositories (you may
-have to refresh and reload the page a few times). Enable the one you
-want to receive coverage data from.
-
-### Create a GitHub CI yaml file
-
-See below for the setup of this repo:
-
-https://github.com/TommyChangUMD/cpp-boilerplate-v2/blob/main/.github/workflows/run-unit-test-and-upload-codecov.yml
-
-### Add your Codecov and GitHub CI badge to README.md
-
-Follow the instruction below to copy the badge (in markdown format)
-and paste it at the top of your README.md file.
+### UML class and activity diagrams are in /UML/ directory. 
+### Cpplint. clang-tidy and test case results are in /Results/ directory.
